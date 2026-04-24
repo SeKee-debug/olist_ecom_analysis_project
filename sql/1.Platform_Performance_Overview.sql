@@ -51,7 +51,6 @@ metrics show that the business performed well in both revenue generation and ord
 */
 
 -------------------------------------------------------------------------
-----月度趋势分析----
 
 SELECT
     TO_CHAR(order_purchase_timestamp, 'YYYY-MM') as month,

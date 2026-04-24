@@ -1,4 +1,4 @@
-----准时 vs 延迟订单的评分对比分析----
+
 SELECT 
     CASE WHEN is_late = TRUE THEN 'Late' ELSE 'On-time' END AS delivery_status,
     COUNT(o.order_id) AS total_orders,
